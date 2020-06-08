@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyBank</string>
+
+    <string name="navigation_home">首页</string>
+    <string name="navigation_discover">发现</string>
+    <string name="navigation_weal">财富</string>
+    <string name="navigation_info">我的</string>
+    <string name="tranferTip1">1. 切勿相信任何以网购刷单、贷款审批、会员退订、信用卡提额为借口的转账要求,不要轻易向陌生人转账，资金一旦流出将无法追回。</string>
+    <string name="tranferTip2">2. 您所填写的收款姓名，收款卡号将用于供您本次交易发起、回顾交易记录。</string>
+    <string name="tranferTip3">3. 单笔转账限额5000元，单日累计限额10000元</string>
+    <string name="introduce">本系统基于Android Studio和MyEclipse开发，数据库采用了MySQL。\n系统主要包括账户信息管理，财富信息管理，购物信息管理和银行业务信息管理四大模块，能够整合多家银行平台，追求资金统一综合管理，实现银行平台一体化、智能化、个性化和极简化。</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

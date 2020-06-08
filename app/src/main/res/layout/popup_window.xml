@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_null"
+    android:background="#e2e3e3"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        app:contentPaddingTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:id="@+id/select_camera_tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="拍照"
+            android:textColor="@color/textblue"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:id="@+id/select_phone_tv"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/textblue"
+            android:layout_weight="1"
+            android:text="从相册选择"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        app:contentPaddingBottom="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="6dp">
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/select_cancel_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/textblue"
+        android:layout_weight="1"
+        android:text="取消"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

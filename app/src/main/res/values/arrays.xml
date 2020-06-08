@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week">
+        <item >查询月度账单</item>
+        <item >查询年度账单</item>
+    </string-array>
+</resources>
